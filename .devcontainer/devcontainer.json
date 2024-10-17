@@ -1,0 +1,19 @@
+{
+	"name": "Go Playground",
+	"build": {
+		"context": "..",
+		"dockerfile": "../Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.go",
+				"task.vscode-task"
+			]
+		}
+	},
+	"features": {
+		"ghcr.io/audacioustux/devcontainers/taskfile:1": {}
+	},
+	"postAttachCommand": "task run -w"
+}
