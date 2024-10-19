@@ -8,7 +8,8 @@
 		"vscode": {
 			"extensions": [
 				"golang.go",
-				"task.vscode-task"
+				"task.vscode-task",
+				"GitHub.copilot"
 			]
 		}
 	},
